@@ -1,0 +1,337 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #000000;
+}
+
+.header-link {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.contenedorheader {
+    display: flex;
+    align-items: center;
+}
+
+#creditCardImage {
+    margin-left: 10px;
+    width: 30px;
+}
+
+.contenedor0 {
+    background-image: url('/catalogo/img/Maybach with darker colors (1).png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 550px;
+    margin-bottom: 20px;
+    font-size: 92px;
+    font-weight: 900;
+    color: #FFF3E1;
+}
+
+input[type="button"] {
+    padding: 10px 20px;
+    margin-bottom: 20%;
+    font-size: 40px;
+    font-weight: 900;
+    border: 5px solid white;
+    background: none;
+    border-radius: 76px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="button"]:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #0a0a0a;
+    color: white;
+}
+
+.header-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ccc;
+}
+
+.header-link-2 {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+}
+
+.contenedorheader-2 {
+    display: flex;
+    align-items: center;
+}
+
+.contenedorheader-3 {
+    background-color: #000;
+    padding: 0.5rem 1rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.letter {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.selected-letter {
+    background-color: white;
+    color: black;
+}
+
+.contenedor1 {
+    margin: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.contenedor1-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(50% - 20px);
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.contenedor1-item img {
+    width: 100%;
+    max-width: 45vw;
+    max-height: 300px;
+    object-fit: contain;
+    border: 2px solid #000;
+    border-radius: 4px;
+}
+
+.contenedor1-item p {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.header-link-model {
+    color: #798D88;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.coche-modelo {
+    width: 100%;
+    max-height: 100ch;
+    height: auto;
+}
+
+.description {
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 40%;
+    font-size: 24px;
+}
+
+.description-title {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.datos {
+    color: #B70826;
+    font-size: 68px;
+}
+
+.caracteristicas-principales {
+    margin-top: 5%;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.description-text2 {
+    font-size: 13px;
+    text-align: center;
+}
+
+.datos2 {
+    font-size: 13px;
+    text-align: center;
+}
+
+.description-text3 {
+    margin: 5%;
+}
+
+#requestNowButton {
+    margin-left: 45%;
+    margin-bottom: 10%;
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    display: inline-block;
+}
+
+button:hover {
+    transform: translateY(-2px);
+}
+
+.coche-seleccionado {
+    display: flex;
+    margin: 5%;
+}
+
+.cestaimg {
+    max-width: 45%;
+    height: auto;
+    object-fit: contain;
+    border: 2px solid #000;
+    border-radius: 4px;
+    margin-right: 5%;
+}
+
+.coche-seleccionado p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+}
+
+.coche-seleccionado p:first-of-type,
+.CMARCA {
+    font-weight: bold;
+    color: #000000;
+    font-size: 18px;
+}
+
+.coche-seleccionado p:last-of-type {
+    color: #666;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.form-container {
+    max-width: 100%;
+    background: white;
+    margin: 10%;
+    margin-top: -25%;
+}
+
+.CestaT {
+    color: #000000;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.checkbox-group {
+    margin-bottom: 15px;
+}
+
+.checkbox-group label {
+    font-size: 12px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.checkbox2 {
+    display: flex;
+    justify-content: start;
+}
+
+#checkbox {
+    width: 15px;
+    margin-left: 3%;
+    margin-right: 4%;
+}
+
+button {
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    display: inline-block;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

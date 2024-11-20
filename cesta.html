@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cesta</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/motor.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header-2">
+        <a href="index.html" class="header-link-2">INICIO</a>
+        <div class="contenedorheader-2">
+            <a href="catalogo.html" class="header-link-2">Catálogo</a>
+            <img id="creditCardImage" src="img/credit-card (4).png" onclick="window.location.href='cesta.html';" style="cursor: pointer;">
+        </div>
+    </header>
+
+    <div class="coche-seleccionado"></div>
+
+    <div class="form-container">
+        <h1 class="CestaT">We look forward to your message</h1>
+        <form id="contact-form">
+            <select id="salutation" name="salutation" required>
+                <option value="" disabled selected>Select</option>
+                <option value="mr">Mr.</option>
+                <option value="ms">Ms.</option>
+                <option value="mrs">Mrs.</option>
+            </select>
+            <input type="text" id="first-name" name="first-name" placeholder="First name" required>
+            <input type="text" id="last-name" name="last-name" placeholder="Last name" required>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+            <select id="country" name="country" required>
+                <option value="" disabled selected>Select a country</option>
+                <option value="espana">España</option>
+                <option value="francia">Francia</option>
+                <option value="alemania">Alemania</option>
+                <option value="italia">Italia</option>
+                <option value="china">China</option>
+            </select>
+            <input type="tel" id="phone" name="phone" placeholder="Phone">
+            <textarea id="message" name="message" placeholder="Your message" required></textarea>
+            <div class="checkbox-group">
+                <label>
+                    <div class="checkbox2">
+                        <input type="checkbox" name="newsletter" id="checkbox">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, nostrum ea ab explicabo ut blanditiis quos quam modi unde voluptatibus impedit minima dignissimos cupiditate nobis non commodi dolore assumenda ipsa?</p>
+                    </div>
+                </label>
+                <label>
+                    <div class="checkbox2">
+                        <input type="checkbox" name="privacy-policy" id="checkbox" required>
+                        <p>I confirm that I have read and agree to the <a href="#">privacy policy</a>. I agree that the data entered will be used to answer my request.</p>
+                    </div>
+                </label>
+            </div>
+            <button type="submit">REQUEST NOW</button>
+        </form>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <h3>footer</h3>
+            <h3>footer</h3>
+            <h3>footer</h3>
+            <h3>footer</h3>
+        </div>
+        <div class="footer">
+            <h3>footer</h3>
+            <h3>footer</h3>
+            <h3>footer</h3>
+            <h3>footer</h3>
+        </div>
+    </footer>
+</body>
+</html>
