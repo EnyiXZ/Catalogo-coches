@@ -21,8 +21,8 @@ Este proyecto es un catálogo de coches interactivo que permite a los usuarios v
 ## Estructura del Proyecto
 
 - `index.html`: Página principal del catálogo de coches.
-- `styles.css`: Archivo de estilos CSS.
-- `script.js`: Archivo JavaScript con la lógica interactiva.
+- `/css/styles.css`: Archivo de estilos CSS.
+- `/js/script.js`: Archivo JavaScript con la lógica interactiva.
 - `images/`: Carpeta que contiene imágenes de los coches.
 
 ## Instalación
