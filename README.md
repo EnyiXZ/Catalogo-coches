@@ -60,6 +60,6 @@ Este proyecto es un catálogo de coches interactivo que permite a los usuarios v
 4. Envía tus cambios (`git push origin feature/nueva-funcion`).
 5. Abre un Pull Request.
 
-## 📜 Licencia
 
-Este proyecto está licenciado bajo la Licencia MIT. Para más detalles, revisa el archivo [LICENSE](./LICENSE).
+
+
